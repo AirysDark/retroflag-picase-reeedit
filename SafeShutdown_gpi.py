@@ -4,7 +4,7 @@ import os
 from signal import pause
 
 powerPin = 26 
-powerenPin = 27 
+powerenPin = 21 
 hold = 1
 power = LED(powerenPin)
 power.on()
